@@ -1,4 +1,5 @@
 from transformers import BertTokenizer, BertModel
+from fastapi import FastAPI
 import torch
 
 app = FastAPI()
