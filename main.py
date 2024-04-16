@@ -1,4 +1,4 @@
-from transformers import BertTokenizer, BertModel
+from sentence_transformers import SentenceTransformer
 from fastapi import FastAPI
 import torch
 
